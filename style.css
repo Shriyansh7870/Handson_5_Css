@@ -1,0 +1,180 @@
+
+body {
+    background-image: url("photo5.png.jpg");
+    filter: brightness(80%);
+    filter: contrast(80%);
+
+}
+
+.container {
+    padding: 10px, 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+    height: 60px;
+    margin-left: 90px;
+}
+
+.logo2 {
+    margin-right: 50px;
+    height: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.container2 {
+
+    margin-top: 210px;
+    color: white;
+}
+
+.container2 span {
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 100px;
+
+}
+
+.container2 p {
+
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+button {
+    font-size: 15px;
+    margin-left: 200px;
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 14px;
+    margin-top: -400px;
+    float: right;
+    flex-wrap: wrap;
+    width: 45%;
+    color: white;
+    text-align: center;
+}
+
+.first {
+    background-image: url(photo1.png.jpg);
+    height: 280px;
+    width: 280px;
+    border-radius: 15px;
+    background-size: cover;
+
+}
+
+.first1 {
+    height: 280px;
+    width: 280px;
+    border-radius: 15px;
+    background-image: url(photo2.png.jpg);
+    background-size: cover;
+}
+
+.first2 {
+    height: 280px;
+    width: 280px;
+    border-radius: 15px;
+    background-image: url(photo3.png.jpg);
+    background-size: cover;
+}
+
+.first3 {
+    height: 280px;
+    width: 280px;
+    border-radius: 15px;
+    background-image: url(photo4.png.jpg);
+    background-size: cover;
+}
+
+.second:hover {
+    transition: 3s;
+    transform: translateY(-10px);
+
+}@media screen and (max-width: 900px) and (min-width: 300px) {
+    body {
+        background-size: 115% 100%;
+        background-repeat: repeat;
+        background-position: center top;
+    }
+
+
+
+    .container2 {
+        width: unset;
+        margin: 0 8%;
+    }
+
+    .container2 span {
+        font-size: 50px;
+        text-align: center;
+    }
+
+
+
+    .box {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+    }
+
+    .second {
+        width: 55%;
+        height: 210px;
+    }
+
+ 
+
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 450px) {
+    body {
+        background-size: 300% 100%;
+        background-repeat: repeat;
+        background-position: center top;
+    }
+
+    .container nav li {
+        display: block;
+        margin-right: unset;
+    }
+
+    .container2 {
+        text-align: center;
+    }
+
+    .container2 button {
+        font-size: 12px;
+        margin-left: 100px;
+        border-radius: 15px;
+        height: 30px;
+        width: 80px;
+    }
+}
